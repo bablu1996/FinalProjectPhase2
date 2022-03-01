@@ -1,0 +1,95 @@
+html, body{
+	 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 103px; /* Same as the width of the sidenav */
+}
+
+table {   
+	border-collapse:collapse;
+	border:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:72%;
+ 
+}
+ 
+th {
+	border-bottom:1px solid gray;
+	background:none repeat scroll 0 0 #F8A10C;
+	padding:10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top:1px solid gray;
+	text-align:center;	
+}
+ 
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #FBB0A0}	
+ 
+#wrapper {width: 100%; text-align: center; }
+#header {width: 72%; background-color: #ffffff; margin-top: 0px; padding:5px 0px 15px 0px;}
+#header h3 {width: 100%; margin:auto; color: #000000;}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#container #content {margin-top: 20px;}
+
+
+
+.sidenav  {
+  height: 100%;
+  width: 200px;
+  border-color: #FFFFFF;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  background-color: #ff6543;
+  margin: 5px;
+  border-radius:10px;
+}
+
+.sidenav a:hover {
+  color: #096342;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#page{
+ 
+  height: 100%;
+  
+	
+}
+
+
+#logo{
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+	color: #ff6543;
+	
+}
+
+.bar-item{
+	
+		
+		border-color: #FFFFFF;
+		border-width: 3px;
+		border-bottom: .5px solid rgba(255, 255, 255, 0.247);
+		 
+}
